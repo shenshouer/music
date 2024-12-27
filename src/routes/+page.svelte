@@ -62,10 +62,10 @@
                       {#each listenNowAlbums as album}
                         <AlbumArtwork
                           {album}
-                          class="w-[250px]"
+                          class="w-[150px]"
                           aspectRatio="portrait"
-                          width={250}
-                          height={330}
+                          width={150}
+                          height={150}
                         />
                       {/each}
                     </div>
